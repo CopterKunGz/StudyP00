@@ -1,0 +1,62 @@
+# ............................ backend ............................ #
+# compiled output
+/p00-backend/dist
+/p00-backend/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/p00-backend/coverage
+/p00-backend/.nyc_output
+
+# IDEs and editors
+/p00-backend/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ............................ frontend ............................ #
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/p00-frontend/node_modules
+/p00-frontend/.pnp
+.pnp.js
+
+# testing
+/p00-frontend/coverage
+
+# production
+/p00-frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules
